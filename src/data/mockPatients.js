@@ -1,0 +1,53 @@
+// Mock patient data for MediKiosk prototype
+// All data is completely fictional
+
+export const mockPatients = [
+  {
+    id: "PAT-1001",
+    name: "Arjun Sharma",
+    age: 45,
+    gender: "Male",
+    bloodGroup: "B+",
+    abhaId: "ABHA-1234-5678-9012",
+    phone: "+91 98765 43210",
+    address: "12 MG Road, Chennai, Tamil Nadu",
+    emergencyContact: "Sunita Sharma - +91 98765 43211",
+    photo: null,
+  },
+  {
+    id: "PAT-1002",
+    name: "Priya Kumar",
+    age: 32,
+    gender: "Female",
+    bloodGroup: "O+",
+    abhaId: "ABHA-2345-6789-0123",
+    phone: "+91 87654 32109",
+    address: "45 Park Street, Bangalore, Karnataka",
+    emergencyContact: "Vikram Kumar - +91 87654 32110",
+    photo: null,
+  },
+  {
+    id: "PAT-1003",
+    name: "Ravi Kumar",
+    age: 58,
+    gender: "Male",
+    bloodGroup: "A+",
+    abhaId: "ABHA-3456-7890-1234",
+    phone: "+91 76543 21098",
+    address: "78 Gandhi Nagar, Hyderabad, Telangana",
+    emergencyContact: "Lakshmi Kumar - +91 76543 21099",
+    photo: null,
+  },
+  {
+    id: "PAT-1004",
+    name: "Meena Devi",
+    age: 67,
+    gender: "Female",
+    bloodGroup: "B+",
+    abhaId: "ABHA-4567-8901-2345",
+    phone: "+91 65432 10987",
+    address: "23 Anna Salai, Chennai, Tamil Nadu",
+    emergencyContact: "Rajesh Devi - +91 65432 10988",
+    photo: null,
+  },
+];
