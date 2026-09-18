@@ -28,7 +28,11 @@ export default function Toast({ message, type = 'info', duration = 4000, onClose
     <div
       className={`fixed top-6 right-6 z-[100] flex items-center gap-3 px-5 py-3.5 rounded-xl border shadow-lg transition-all duration-300 ${
         styles[type] || styles.info
-      } ${visible ? 'opacity-100 translate-y-0' : 'opacity-0 -translate-y-2 pointer-events-none'}`}
+      } ${
+        visible
+          ? 'opacity-100 translate-y-0 pointer-events-auto'
+          : 'opacity-0 -translate-y-2 pointer-events-none'
+      }`}
     >
       <span className="flex-shrink-0">{icons[type] || icons.info}</span>
       <span className="text-sm font-semibold">{message}</span>
